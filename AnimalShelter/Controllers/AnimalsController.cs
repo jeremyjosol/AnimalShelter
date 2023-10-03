@@ -18,7 +18,7 @@ namespace AnimalShelter.Controllers
     {
       List<Animal> model = _db.Animals
                               .OrderBy(animal => animal.Type)
-                              .ThenByDescending(animal => animal.AdmittanceDate)
+                              .ThenBy(animal => animal.AdmittanceDate)
                               .ToList();
       return View(model);
     }
