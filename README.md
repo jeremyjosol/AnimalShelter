@@ -20,3 +20,5 @@ Animal Shelter is a ASP.NET Core web application that serves as a platform for m
   > Be sure to replace the `{DATABASE}`, `{DATABASE_TEST}`,`{USERNAME}` and `{PASSWORD}` fields with your own relevant information. Do not include the curly brackets.
 5. In the production directory, you can enter the following command `dotnet watch run`.
   > This command will start the project in development mode with a watcher.
+
+![AnimalSQL.jpg](https://github.com/jeremyjosol/oct32023_AnimalShelter/blob/main/AnimalSQL.jpg?raw=true)
