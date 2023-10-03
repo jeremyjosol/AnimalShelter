@@ -11,6 +11,10 @@ input[type="date"] {
   width: 185px;
 }
 
+table {
+  margin: auto;
+}
+
 div#footer {
   position:fixed;
   bottom:0px;
