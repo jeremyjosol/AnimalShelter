@@ -7,6 +7,10 @@ html {
   margin-top: 150px;
 }
 
+input[type="date"] {
+  width: 185px;
+}
+
 div#footer {
   position:fixed;
   bottom:0px;

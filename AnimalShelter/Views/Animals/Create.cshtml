@@ -13,7 +13,7 @@
   <br />
   @Html.TextBoxFor(model => model.Name, new { placeholder = "Name", required = "required" })
   <br />
-  @Html.TextBoxFor(model => model.AdmittanceDate, new { placeholder = "Date of Admittance", required = "required" })
+  @Html.TextBoxFor(model => model.AdmittanceDate, new { placeholder = "Date of Admittance", type = "date", required = "required" })
   <br />
   <input type="submit" value="Add new animal" />
 }
