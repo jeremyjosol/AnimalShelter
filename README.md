@@ -21,4 +21,6 @@ Animal Shelter is a ASP.NET Core web application that serves as a platform for m
 5. In the production directory, you can enter the following command `dotnet watch run`.
   > This command will start the project in development mode with a watcher.
 
+## SQL Designer
+
 ![AnimalSQL.jpg](https://github.com/jeremyjosol/oct32023_AnimalShelter/blob/main/AnimalSQL.jpg?raw=true)
