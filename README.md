@@ -9,11 +9,11 @@
 ```json
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=animal_shelter;uid={USERNAME};pwd={PASSWORD};",
-      "TestConnection": "Server=localhost;Port=3306;database=animal_shelter_test;uid=root;pwd=epicodus;"
+      "DefaultConnection": "Server=localhost;Port=3306;database={DATABASE};uid={USERNAME};pwd={PASSWORD};",
+      "TestConnection": "Server=localhost;Port=3306;database={DATABASE_TEST};uid=root;pwd=epicodus;"
   }
 }
 ```
-  > Be sure to replace the `{USERNAME}` and `{PASSWORD}` fields with your own relevant information. Do not include the curly brackets.
+  > Be sure to replace the `{DATABASE}`, `{DATABASE_TEST}`,`{USERNAME}` and `{PASSWORD}` fields with your own relevant information. Do not include the curly brackets.
 5. In the production directory, you can enter the following command `dotnet watch run`.
   > This command will start the project in development mode with a watcher.
