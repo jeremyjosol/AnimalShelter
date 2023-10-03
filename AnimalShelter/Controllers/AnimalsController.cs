@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 
-// Research how to delete data from database
-
 namespace AnimalShelter.Controllers
 {
   public class AnimalsController : Controller
