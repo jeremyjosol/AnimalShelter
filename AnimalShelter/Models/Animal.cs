@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using MySqlConnector;
+using System;
 
 namespace AnimalShelter.Models
 {
@@ -9,7 +10,6 @@ namespace AnimalShelter.Models
     public string Type { get; set; }
     public string Breed { get; set; }
     public string Name { get; set; }
-    public string AdmittanceDate { get; set; }
-
+    public DateTime AdmittanceDate { get; set; }
   }
 }
