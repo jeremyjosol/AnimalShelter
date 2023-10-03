@@ -1,5 +1,8 @@
 # Animal Shelter
 
+## About
+Animal Shelter is a ASP.NET Core web application that serves as a platform for managing and presenting information about animals in a shelter. It allows users to browse a variety of animal types, listing them alphabetically and sorting them by the oldest date of admittance. The application also offers a search feature that enables users to filter animals based on breed or name. If a user clicks on a specific animal, they are presented with the animal's corresponding profile that includes essential details such as the animal's name, breed, type, and date of admittance.
+
 ## Application Setup
 
 1. Clone this repo.
