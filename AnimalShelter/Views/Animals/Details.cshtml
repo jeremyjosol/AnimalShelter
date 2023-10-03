@@ -7,21 +7,21 @@
 <h2>Animal Details</h2>
 
 
-  <table>
+  <table border="1">
     <tr>
-        <td>@Html.DisplayNameFor(model => model.Type):</td>
+        <th>@Html.DisplayNameFor(model => model.Type):</th>
         <td>@Html.DisplayFor(model => model.Type)</td>
     </tr>
     <tr>
-        <td>@Html.DisplayNameFor(model => model.Breed):</td>
+        <th>@Html.DisplayNameFor(model => model.Breed):</th>
         <td>@Html.DisplayFor(model => model.Breed)</td>
     </tr>
     <tr>
-        <td>@Html.DisplayNameFor(model => model.Name):</td>
+        <th>@Html.DisplayNameFor(model => model.Name):</th>
         <td>@Html.DisplayFor(model => model.Name)</td>
     </tr>
     <tr>
-        <td>Admittance Date:</td>
+        <th>Admittance Date:</th>
         <td>@Html.DisplayFor(model => model.AdmittanceDate)</td>
     </tr>
   </table>
