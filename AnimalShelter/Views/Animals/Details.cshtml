@@ -6,28 +6,23 @@
 
 <h2>Animal Details</h2>
 
+<table border="1">
+  <tr>
+    <th>@Html.DisplayNameFor(model => model.Type):</th>
+    <td>@Html.DisplayFor(model => model.Type)</td>
+  </tr>
+  <tr>
+    <th>@Html.DisplayNameFor(model => model.Breed):</th>
+    <td>@Html.DisplayFor(model => model.Breed)</td>
+  </tr>
+  <tr>
+    <th>@Html.DisplayNameFor(model => model.Name):</th>
+    <td>@Html.DisplayFor(model => model.Name)</td>
+  </tr>
+  <tr>
+    <th>Admittance Date:</th>
+    <td>@Html.DisplayFor(model => model.AdmittanceDate)</td>
+  </tr>
+</table>
 
-  <table border="1">
-    <tr>
-        <th>@Html.DisplayNameFor(model => model.Type):</th>
-        <td>@Html.DisplayFor(model => model.Type)</td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(model => model.Breed):</th>
-        <td>@Html.DisplayFor(model => model.Breed)</td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(model => model.Name):</th>
-        <td>@Html.DisplayFor(model => model.Name)</td>
-    </tr>
-    <tr>
-        <th>Admittance Date:</th>
-        <td>@Html.DisplayFor(model => model.AdmittanceDate)</td>
-    </tr>
-  </table>
-
-@* <h3>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)<h3>
-<h3>@Html.DisplayNameFor(model => model.Breed): @Html.DisplayFor(model => model.Breed)<h3>
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
-<h3>Admittance Date: @Html.DisplayFor(model => model.AdmittanceDate)<h3> *@
 <p>@Html.ActionLink("Back to all animals", "Index")</p>
