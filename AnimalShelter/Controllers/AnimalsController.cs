@@ -37,5 +37,14 @@ namespace AnimalShelter.Controllers
     Animal thisAnimal = _db.Animals.FirstOrDefault(animal => animal.AnimalId == id);
     return View(thisAnimal);
     }
+    public ActionResult Search(string searchAnimals)
+    {
+      List<Animal> searchResults = _db.Animals
+        .Where(animal =>
+          animal.Breed.Contains(searchAnimals) ||
+          animal.Name.Contains(searchAnimals)) 
+          .ToList();
+    return View("Search", searchResults);
+    }
   }
 }
